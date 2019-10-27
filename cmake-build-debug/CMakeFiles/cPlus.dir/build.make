@@ -57,27 +57,27 @@ include CMakeFiles/cPlus.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/cPlus.dir/flags.make
 
-CMakeFiles/cPlus.dir/study_1/src/day1/d04_mainclass.cpp.o: CMakeFiles/cPlus.dir/flags.make
-CMakeFiles/cPlus.dir/study_1/src/day1/d04_mainclass.cpp.o: ../study_1/src/day1/d04_mainclass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bob/XiangXueStudy/cPlus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cPlus.dir/study_1/src/day1/d04_mainclass.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cPlus.dir/study_1/src/day1/d04_mainclass.cpp.o -c /Users/bob/XiangXueStudy/cPlus/study_1/src/day1/d04_mainclass.cpp
+CMakeFiles/cPlus.dir/study_1/src/day1/d05_mainclass.cpp.o: CMakeFiles/cPlus.dir/flags.make
+CMakeFiles/cPlus.dir/study_1/src/day1/d05_mainclass.cpp.o: ../study_1/src/day1/d05_mainclass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bob/XiangXueStudy/cPlus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cPlus.dir/study_1/src/day1/d05_mainclass.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cPlus.dir/study_1/src/day1/d05_mainclass.cpp.o -c /Users/bob/XiangXueStudy/cPlus/study_1/src/day1/d05_mainclass.cpp
 
-CMakeFiles/cPlus.dir/study_1/src/day1/d04_mainclass.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cPlus.dir/study_1/src/day1/d04_mainclass.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bob/XiangXueStudy/cPlus/study_1/src/day1/d04_mainclass.cpp > CMakeFiles/cPlus.dir/study_1/src/day1/d04_mainclass.cpp.i
+CMakeFiles/cPlus.dir/study_1/src/day1/d05_mainclass.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cPlus.dir/study_1/src/day1/d05_mainclass.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bob/XiangXueStudy/cPlus/study_1/src/day1/d05_mainclass.cpp > CMakeFiles/cPlus.dir/study_1/src/day1/d05_mainclass.cpp.i
 
-CMakeFiles/cPlus.dir/study_1/src/day1/d04_mainclass.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cPlus.dir/study_1/src/day1/d04_mainclass.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bob/XiangXueStudy/cPlus/study_1/src/day1/d04_mainclass.cpp -o CMakeFiles/cPlus.dir/study_1/src/day1/d04_mainclass.cpp.s
+CMakeFiles/cPlus.dir/study_1/src/day1/d05_mainclass.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cPlus.dir/study_1/src/day1/d05_mainclass.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bob/XiangXueStudy/cPlus/study_1/src/day1/d05_mainclass.cpp -o CMakeFiles/cPlus.dir/study_1/src/day1/d05_mainclass.cpp.s
 
 # Object files for target cPlus
 cPlus_OBJECTS = \
-"CMakeFiles/cPlus.dir/study_1/src/day1/d04_mainclass.cpp.o"
+"CMakeFiles/cPlus.dir/study_1/src/day1/d05_mainclass.cpp.o"
 
 # External object files for target cPlus
 cPlus_EXTERNAL_OBJECTS =
 
-cPlus: CMakeFiles/cPlus.dir/study_1/src/day1/d04_mainclass.cpp.o
+cPlus: CMakeFiles/cPlus.dir/study_1/src/day1/d05_mainclass.cpp.o
 cPlus: CMakeFiles/cPlus.dir/build.make
 cPlus: CMakeFiles/cPlus.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bob/XiangXueStudy/cPlus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable cPlus"

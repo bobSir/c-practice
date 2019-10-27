@@ -13,4 +13,4 @@ set(CMAKE_CXX_STANDARD 14)
 
 #add_executable(cPlus study_1/src/day1/d03_mianclass.cpp study_1/src/homeWork/MyArray.cpp study_1/src/homeWork/MyArray.h)
 
-add_executable(cPlus study_1/src/day1/d04_mainclass.cpp)
+add_executable(cPlus study_1/src/day1/d05_mainclass.cpp)

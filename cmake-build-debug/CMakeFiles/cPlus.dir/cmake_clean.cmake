@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/cPlus.dir/study_1/src/day1/d04_mainclass.cpp.o"
+  "CMakeFiles/cPlus.dir/study_1/src/day1/d05_mainclass.cpp.o"
   "cPlus"
   "cPlus.pdb"
 )

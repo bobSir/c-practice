@@ -123,32 +123,32 @@ cPlus/fast:
 	$(MAKE) -f CMakeFiles/cPlus.dir/build.make CMakeFiles/cPlus.dir/build
 .PHONY : cPlus/fast
 
-study_1/src/day1/d04_mainclass.o: study_1/src/day1/d04_mainclass.cpp.o
+study_1/src/day1/d05_mainclass.o: study_1/src/day1/d05_mainclass.cpp.o
 
-.PHONY : study_1/src/day1/d04_mainclass.o
+.PHONY : study_1/src/day1/d05_mainclass.o
 
 # target to build an object file
-study_1/src/day1/d04_mainclass.cpp.o:
-	$(MAKE) -f CMakeFiles/cPlus.dir/build.make CMakeFiles/cPlus.dir/study_1/src/day1/d04_mainclass.cpp.o
-.PHONY : study_1/src/day1/d04_mainclass.cpp.o
+study_1/src/day1/d05_mainclass.cpp.o:
+	$(MAKE) -f CMakeFiles/cPlus.dir/build.make CMakeFiles/cPlus.dir/study_1/src/day1/d05_mainclass.cpp.o
+.PHONY : study_1/src/day1/d05_mainclass.cpp.o
 
-study_1/src/day1/d04_mainclass.i: study_1/src/day1/d04_mainclass.cpp.i
+study_1/src/day1/d05_mainclass.i: study_1/src/day1/d05_mainclass.cpp.i
 
-.PHONY : study_1/src/day1/d04_mainclass.i
+.PHONY : study_1/src/day1/d05_mainclass.i
 
 # target to preprocess a source file
-study_1/src/day1/d04_mainclass.cpp.i:
-	$(MAKE) -f CMakeFiles/cPlus.dir/build.make CMakeFiles/cPlus.dir/study_1/src/day1/d04_mainclass.cpp.i
-.PHONY : study_1/src/day1/d04_mainclass.cpp.i
+study_1/src/day1/d05_mainclass.cpp.i:
+	$(MAKE) -f CMakeFiles/cPlus.dir/build.make CMakeFiles/cPlus.dir/study_1/src/day1/d05_mainclass.cpp.i
+.PHONY : study_1/src/day1/d05_mainclass.cpp.i
 
-study_1/src/day1/d04_mainclass.s: study_1/src/day1/d04_mainclass.cpp.s
+study_1/src/day1/d05_mainclass.s: study_1/src/day1/d05_mainclass.cpp.s
 
-.PHONY : study_1/src/day1/d04_mainclass.s
+.PHONY : study_1/src/day1/d05_mainclass.s
 
 # target to generate assembly for a file
-study_1/src/day1/d04_mainclass.cpp.s:
-	$(MAKE) -f CMakeFiles/cPlus.dir/build.make CMakeFiles/cPlus.dir/study_1/src/day1/d04_mainclass.cpp.s
-.PHONY : study_1/src/day1/d04_mainclass.cpp.s
+study_1/src/day1/d05_mainclass.cpp.s:
+	$(MAKE) -f CMakeFiles/cPlus.dir/build.make CMakeFiles/cPlus.dir/study_1/src/day1/d05_mainclass.cpp.s
+.PHONY : study_1/src/day1/d05_mainclass.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... cPlus"
-	@echo "... study_1/src/day1/d04_mainclass.o"
-	@echo "... study_1/src/day1/d04_mainclass.i"
-	@echo "... study_1/src/day1/d04_mainclass.s"
+	@echo "... study_1/src/day1/d05_mainclass.o"
+	@echo "... study_1/src/day1/d05_mainclass.i"
+	@echo "... study_1/src/day1/d05_mainclass.s"
 .PHONY : help
 
 

@@ -8,6 +8,11 @@ using namespace std;
 
 /**
  * 继承
+ * 权限等级
+ */
+
+/**
+ * 继承
  *
  * class Child : Parent{} //默认private
  * class Child : [权限访问]private|protect|public Parent{}
@@ -206,9 +211,56 @@ void testObj() {
     B2 b2(1, 2, 3);
 }
 
-int main() {
+int main03() {
     cout << "继承中的构造函数" << endl;
     testObj();
     return 0;
 }
+
+class A {
+public:
+    int a = 3;
+    int b = 4;
+
+    void get() {
+        cout << "b" << b << endl;
+    }
+
+    void print() {
+        cout << "A print b = " << b << endl;
+    }
+};
+
+class B : public A {
+public:
+    int b = 1;
+    int c = 2;
+
+    void getChild() {
+        cout << "b" << b << endl;
+    }
+
+    void print() {
+        cout << "B print b = " << b << endl;
+    }
+};
+
+
+int main() {
+
+    B b1;
+    b1.print();
+
+    b1.A::print();//:: 作用符调用父类方法
+
+    b1.b = 10;
+    b1.A::b = 20;
+
+    b1.print();
+    b1.A::print();
+    return 0;
+}
+
+//c++的多继承
+
 
